@@ -1,0 +1,60 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "siteSettings": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'"
+    },
+    "panelSettings": {
+      ".read": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'",
+      ".write": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'"
+    },
+    "categories": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'"
+    },
+    "posts": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'"
+    },
+    "floatingButtons": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'"
+    },
+    "notifications": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'"
+    },
+    "appUpdate": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'"
+    },
+    "ActiveUserKeys": {
+      ".read": "auth != null",
+      ".write": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'",
+      "$key": {
+        ".read": true,
+        ".write": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'",
+        "boundDeviceId": {
+          ".write": true
+        },
+        "boundDevices": {
+          ".write": true
+        }
+      }
+    },
+    "BannedDevices": {
+      ".read": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'",
+      ".write": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'"
+    },
+    "users": {
+      ".read": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'",
+      ".write": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'"
+    },
+    "deviceRegistry": {
+      ".read": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'",
+      ".write": "auth != null && auth.uid === 'xwKyIeWDCeRwq2YKntpoqyuYz7k1'"
+    }
+  }
+}
